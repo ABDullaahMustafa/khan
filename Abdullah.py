@@ -67,7 +67,7 @@ def jalan(z):
 logo = """
 \033[1;91m  _____________________________________________     
 
-\033[1;91m        ABDULLAH                               
+\033[1;92m        ABDULLAH                               
 \033[1;92m                   MUSTAFA
 \033[1;97m        ABDULLAH
 \033[1;92m                   MUSTAFA
@@ -99,15 +99,14 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 logo = """
-\033[1;91m  _____________________________________________ 
-\033[1;91m        ABDULLAH                               
+\033[1;91m  _____________________________________________     
+\033[1;92m        ABDULLAH                               
 \033[1;92m                   MUSTAFA
 \033[1;97m        ABDULLAH
 \033[1;92m                   MUSTAFA
 \033[1;95m        ABDULLAH      
 \033[1;92m                   MUSTAFA                               
 \033[1;91m  _____________________________________________ 
-
 \033[1;97m  Author   :     \033[1;92mABDULLAH MUSTAFA
 \033[1;97m  GANG     :     \033[1;92mROYAL SQUAD GANG
 \033[1;97m  UNITY    :     \033[1;92mKINGSMAN UNITY 
