@@ -67,7 +67,7 @@ def jalan(z):
 logo = """
 \033[1;91m  _____________________________________________     
 
-\033[1;92m        ABDULLAH                               
+\033[1;91m        ABDULLAH                               
 \033[1;92m                   MUSTAFA
 \033[1;97m        ABDULLAH
 \033[1;92m                   MUSTAFA
@@ -76,7 +76,7 @@ logo = """
 \033[1;91m  _____________________________________________ 
 
 \033[1;97m  Author   :     \033[1;92mABDULLAH MUSTAFA
-\033[1;97m  GANG     :     \033[1;92mONLY BROTHERS
+\033[1;97m  GANG     :     \033[1;92mROYAL SQUAD GANG
 \033[1;97m  UNITY    :     \033[1;92mKINGSMAN UNITY 
 \033[1;97m  WHATSAPP :     \033[1;92m03117498207
 \033[1;91m  _____________________________________________ 
@@ -98,17 +98,19 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
+logo = """
+\033[1;91m  _____________________________________________     
 
-\033[1;91m     #    ######   #####  #          #    #     # 
-\033[1;91m    # #   #     # #     # #         # #   ##    # 
-\033[1;91m   #   #  #     # #       #        #   #  # #   # 
-\033[1;91m  #     # ######   #####  #       #     # #  #  # 
-\033[1;91m  ####### #   #         # #       ####### #   # # 
-\033[1;91m  #     # #    #  #     # #       #     # #    ## 
-\033[1;91m  #     # #     #  #####  ####### #     # #     #       
+\033[1;91m        ABDULLAH                               
+\033[1;92m                   MUSTAFA
+\033[1;97m        ABDULLAH
+\033[1;92m                   MUSTAFA
+\033[1;95m        ABDULLAH      
+\033[1;92m                   MUSTAFA                               
 \033[1;91m  _____________________________________________ 
+
 \033[1;97m  Author   :     \033[1;92mABDULLAH MUSTAFA
-\033[1;97m  GANG     :     \033[1;92mBROTHERS ONLY 
+\033[1;97m  GANG     :     \033[1;92mROYAL SQUAD GANG
 \033[1;97m  UNITY    :     \033[1;92mKINGSMAN UNITY 
 \033[1;97m  WHATSAPP :     \033[1;92m03117498207
 \033[1;91m  _____________________________________________ 
@@ -144,7 +146,7 @@ def reg():
 
         reg2()
 
-    r = requests.get('https://github.com/ABDullaahMustafa/khan/main/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/ABDullaahMustafa/khan/main/server.txt').text
 
     if to in r:
 
@@ -176,7 +178,7 @@ def reg():
 
         raw_input('\033[1;93m Press enter to send id')
 
-        os.system('xdg-open https://wa.me/+923117498207')
+        os.system('xdg-open https://wa.me/03117498207')
 
         reg()
 
